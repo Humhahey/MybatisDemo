@@ -1,5 +1,7 @@
 package cn.humhahey.service;
 
 public interface HelloService {
-    public void sayHellod(String name);
+    public void sayHello(String name);
+
+    public void self(String name);
 }

@@ -25,6 +25,6 @@ public class HelloServiceProxy implements InvocationHandler {
 
     public static void main(String[] args) {
         HelloService service = (HelloService)new HelloServiceProxy().bind(new HelloServiceImpl());
-        service.sayHellod("humhahey");
+        service.self("humhahey");
     }
 }
